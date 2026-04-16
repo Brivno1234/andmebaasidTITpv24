@@ -20,7 +20,7 @@ admebaasidega seotud SQL kood ja konspektid
   ```
 ## SQL - Strukture Query Language -  struktureeritud päringu keel
 -Tabeli loomine 
-``` 
+``` sql
  CREATE TABLE opilane(
  opilaneID int primary Key identity(1,1), -- automatselt täidab numbridiga
  eesnimi varchar(25),
