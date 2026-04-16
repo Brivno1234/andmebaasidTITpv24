@@ -51,5 +51,5 @@ admebaasidega seotud SQL kood ja konspektid
  aadress TEXT,
  keskminehinne decimal(2,1), ); --(2-- kokku , 1- peale komat nt 4.5)
  
- SELECT * FROM opilane;
+ SELECT * FROM opilane; 
 ```
