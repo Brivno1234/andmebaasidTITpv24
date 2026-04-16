@@ -34,22 +34,12 @@ admebaasidega seotud SQL kood ja konspektid
  SELECT * FROM opilane;
 ```
 -Andmete sisestamine tabelisse
-```
- CREATE DATABASE TITpv24bass;
+```sql
+  INSERT INTO opilane
+ values ('artjom','Jegorov','2000-12-10',1,'+325689','Tallin',4.5);
 
- --ab kustutamine 
- DROP DATABASE LOGITpe24baas;
- use TITpv24bass
- --tabeli lomine 
- CREATE TABLE opilane(
- opilaneID int primary Key identity(1,1), -- automatselt täidab numbridiga
- eesnimi varchar(25),
- perenimi varchar(30) not null,
- synniaeg DATE,
- stip bit,
- mobiil varchar(13),
- aadress TEXT,
- keskminehinne decimal(2,1), ); --(2-- kokku , 1- peale komat nt 4.5)
- 
- SELECT * FROM opilane; 
+ INSERT INTO opilane(perenimi, eesnimi, keskminehinne)
+ VALUES ('Sereda','Ivan', 4.2),
+ ('Holovanov','Ivan', 4.2),
+ ('Suvorov','Marko', 5.0);
 ```
