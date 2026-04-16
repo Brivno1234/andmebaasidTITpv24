@@ -43,3 +43,19 @@ admebaasidega seotud SQL kood ja konspektid
  ('Holovanov','Ivan', 4.2),
  ('Suvorov','Marko', 5.0);
 ```
+## Seosed (tabelivalised seosed)
+-üks-ühele (nt mees-naine)
+-üks-,itmele (nt ema-lapsed) картитку
+- mitu - mitmele (nt õpilased - õpetajad)
+
+## PIIRANGUD ограничения
+constraint - Ограничения (5)
+1. PRIMARY KEY
+2. FOREING KEY
+3. CHECK
+4. NOT NULL
+5. UNIQUE
+
+```sql
+код два с кл. 
+```
