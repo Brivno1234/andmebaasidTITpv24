@@ -67,5 +67,16 @@ constraint - Ограничения (5)
 1. uue veeru lisamine
 
 ```sql
-
+ --uue veeru lisamine 
+ ALTER TABLE opilane ADD isikekood varchar(11);
+ SELECT * FROM opilane;
+ --veeru kustutamine удалить 
+  ALTER TABLE opilane drop column isikekood ;
+  SELECT * FROM opilane;
+ -- andmetüübi muutmine varchar(11) -->char(11)
+ ALTER TABLE opilane ALTER COLUMN isikekood char(11);
+ SELECT * FROM opilane;
+ --sissehitatud protseduur , mis näitab tabele struktur
+ sp_help opilane;
+ --
 ```
