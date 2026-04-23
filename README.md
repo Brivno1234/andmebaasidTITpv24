@@ -59,3 +59,13 @@ constraint - Ограничения (5)
 ```sql
 код два с кл. 
 ```
+
+
+
+## ALTER TABLE
+-TABELI STRUKTUURI MUUTMINE (struktuur: veerudenimed, andmetüübid, piirangud)
+1. uue veeru lisamine
+
+```sql
+
+```
