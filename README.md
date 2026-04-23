@@ -1,90 +1,160 @@
-# andmebaasidTITpv24
-admebaasidega seotud SQL kood ja konspektid
-
-## Sidukord 
-- [Põhimõisted](#Pohimoisted)
-- [andmetüübid](#andmetüübid)
-- [SQL - Strukture Query Language](#SQL-Strukture-Query-Language)
-- [Seosed](#Seosed)
-- [PIIRANGUD](#PIIRANGUD)
+# AndmebaasidTITpv24
+andmebaasidega seotud SQL kood ja konspektid
+## Sisukord 
+- [Põhimõisted](#põhimõisted)
+- [Andmetüübid](#andmetüübid)
+- [SEOSED](#SEOSED)
+- [Piirangud](#Piirangud)
 - [ALTER TABLE](#ALTER-TABLE)
-## Põhimõisted 
-- andmebaas - struktureeritud andmete kogum
-- tebel = olem - сущность - entity
-- veerg = väl - поле * столбец
-- rada = kirje - записи
-- andmebaasi haldussüsteem - (сестема управления базами даных) tarkvara, millega abil saad luua andmebaas: mariaDB / XAMPP, SQL SERVER management Studio
-  <img width="539" height="575" alt="{9190D3CD-BE1A-44BE-ADE3-EE81023E0073}" src="https://github.com/user-attachments/assets/c5ce519a-9455-4262-b2ab-c969a00f79b5" />
 
-- primaarne võti - PRIMARY KEY- veerg(tavaliselt id nimega) - unikkaalne identifikaator , mis eristab iga kirje. - первичный ключ.
-- välisvõti - FOREING KEY -FK- veerg, mis loob seos teise tabeli primarvõtmega. - вторичный ключ.
-- päring - QUERY - запрос 
-   ## andmetüübid  типы даных
-  ```
-  1. Numbrilised : INT, SmallINT, float, decimal(5,2)
-  2. Tekst/ sümboolised: varchar(255), char(5), text,
-  3. loogilised: boolean, true/false, bit, bool,
-  4. kuupäeva: date , time, datetime
-  ```
-## SQL - Strukture Query Language -  struktureeritud päringu keel
--Tabeli loomine 
-``` sql
- CREATE TABLE opilane(
- opilaneID int primary Key identity(1,1), -- automatselt täidab numbridiga
- eesnimi varchar(25),
- perenimi varchar(30) not null,
- synniaeg DATE,
- stip bit,
- mobiil varchar(13),
- aadress TEXT,
- keskminehinne decimal(2,1), ); --(2-- kokku , 1- peale komat nt 4.5)
- 
- SELECT * FROM opilane;
+
+
+
+
+
+## Põhimõisted
+- andmebaas - struktureetitud andmete kogum
+- tabel = olem - сущность - entity
+- veerg = väli - поле - столбец
+- rida = kirje - записи
+- andmebaasi haldussüsteem - tarkvara, millega abil saab luua andmebaas: mariaDB / XAMPP, SQL SERVER management Studio.
+<img width="465" height="510" alt="{7C64C2A3-7A91-4FBB-8346-74933FE65CE4}" src="https://github.com/user-attachments/assets/a991477f-5e9b-4027-aed9-eac3a8f62587" />
+
+- primaarne võti - PRIMARY KEY - veerg (tavaliselt id nimega), unikaalne identifikaator, mis eristab iga kirje.
+-  välisvõti - FOREIGN KEY - FK - veerg, mis loob seos teise tabeli primaarvõtmega.
+- päring - QUERY - запрос
+
+## Andmetüübid
 ```
--Andmete sisestamine tabelisse
+1. Numbrilised: INT, SmallINT, float, decimal(5,2)
+2. Tekst/sümboolised: varchar(255), char(5), TEXT
+3. Loogilised: boolean, true/false, bit, bool
+4. Kuupäeva: date, time, datetime
+```
+
+## SQL - sturcture Query language - struktureetitud päringu keel 
+- Tabeli loomine
 ```sql
-  INSERT INTO opilane
- values ('artjom','Jegorov','2000-12-10',1,'+325689','Tallin',4.5);
-
- INSERT INTO opilane(perenimi, eesnimi, keskminehinne)
- VALUES ('Sereda','Ivan', 4.2),
- ('Holovanov','Ivan', 4.2),
- ('Suvorov','Marko', 5.0);
+CREATE DATABASE TITPV24baas;
+--ab kustutamine
+DROP DATABASE LOGITpv24baas;
+use TITPV24baas;
+--tabeli loomine
+CREATE TABLE opilane(
+opilaneID int Primary Key identity(1,1), --automaatselt täidab numritega
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) )
+SELECT * FROM opilane;
 ```
-## Seosed (tabelivalised seosed)
--üks-ühele (nt mees-naine)
--üks-,itmele (nt ema-lapsed) картитку
-- mitu - mitmele (nt õpilased - õpetajad)
+- Andmete sisetamine
+```sql
+INSERT INTO opilane
+VALUES ('Marko', 'Suvorov', '2007-07-06',1,'+37266262412', 'Tallinn', 4.5)
+INSERT INTO opilane(perenimi,eesnimi,keskmineHinne)
+values('Suvorov', 'Marko', 4.2),
+('Jegorov', 'Artjom', 4.2),
+('Vasylenko', 'Vasilisa', 2),
+('Talibova', 'Leila', 2);
+```
 
-## PIIRANGUD ограничения
-constraint - Ограничения (5)
+## SEOSED
+- üks-ühele (nt mees-naine)
+- üks-mitmele (nt ema-lapsed)
+<img width="223" height="489" alt="{B9182944-284F-46E8-8C16-39DECC36AF26}" src="https://github.com/user-attachments/assets/cff14ab8-b20e-4f18-90e6-90e2318251de" />
+
+- mitu-mitmele (nt õpilased - õpetajad)
+
+## Piirangud
+- constraint - ограничения
 1. PRIMARY KEY
-2. FOREING KEY
+2. FOREIGN KEY
 3. CHECK
 4. NOT NULL
 5. UNIQUE
 
 ```sql
-код два с кл. 
+CREATE TABLE opitamine(
+opetamineID int PRIMARY KEY identity(1,1),
+kuupaev DATE,
+oppeaine varchar(30),
+opilaneID int,
+FOREIGN KEY (opilaneID) REFERENCES opilane(opilaneID),
+hinne int CHECK(hinne<=5));
+
+SELECT * FROM opitamine;
+SELECT * FROM opilane;
+
+INSERT INTO opitamine
+VALUES ('2026-04-16', 'andmebaasid', 1, 5)
+```
+```sql
+CREATE TABLE opetaja(
+opetajaID int PRIMARY KEY identity(1,1),
+nimi varchar(25),
+epost varchar(40),
+ruum varchar(15) )
+
+SELECT * FROM opetaja;
+
+-- LISAMINE nimi, epost ja ruum tabelisse "opetaja"
+INSERT INTO opetaja (nimi, epost, ruum)
+VALUES ('Lury Avik', 'luryavik@tthk.ee', 'A243'),
+('Markus Lehtla', 'markuslehtla@tthk.ee', 'A116'),
+('Irina Merkulova', 'irinamerkulova@tthk.ee', 'E03');
+
+--LISAME TABEL TUND
+CREATE TABLE tund(
+tundID int PRIMARY KEY IDENTITY(1,1),
+kuupaev DATE,
+tundinimi varchar(30),
+opetajaID int,
+FOREIGN KEY (opetajaID) REFERENCES opetaja(opetajaID),
+opetamineID int,
+FOREIGN KEY (opetamineID) REFERENCES opitamine(opetamineID) )
+
+SELECT * FROM tund;
+--LISAME kuupaev, tundinimi, opetajaID ja opetamineID tabelisse
+insert INTO tund(kuupaev, tundinimi, opetajaID, opetamineID)
+VALUES ('2023-04-15', 'Linux', 1, 1),
+('2023-04-16', 'Arvutivõrgud', 2, 2),
+('2023-04-17', 'Andmebaasid', 3, 3);
 ```
 
-
-
 ## ALTER TABLE
--TABELI STRUKTUURI MUUTMINE (struktuur: veerudenimed, andmetüübid, piirangud)
+- tabeli struktuuri muutmine (struktuur: veerudenimed, andmetüübid)
 1. uue veeru lisamine
-
 ```sql
- --uue veeru lisamine 
- ALTER TABLE opilane ADD isikekood varchar(11);
- SELECT * FROM opilane;
- --veeru kustutamine удалить 
-  ALTER TABLE opilane drop column isikekood ;
-  SELECT * FROM opilane;
- -- andmetüübi muutmine varchar(11) -->char(11)
- ALTER TABLE opilane ALTER COLUMN isikekood char(11);
- SELECT * FROM opilane;
- --sissehitatud protseduur , mis näitab tabele struktur
- sp_help opilane;
- --
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+
+--veeru kustutamine 
+ALTER TABLE opilane DROP COLUMN isikukood;
+
+--andmetüübi muutmine varchar -> char
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+
+--sisseehitatud protseduur, mis näitab tabeli struktuur
+sp_help opilane;
+
+--kontrollimiseks
+SELECT * FROM ryhm;
+INSERT INTO ryhm (ryhmID, ryhmNIMI)
+VALUES (1, 'TITpv24');
+
+--lisamine FOREIGN KEY - võõrvõti-välisvõti
+ALTER TABLE opilane ADD ryhmID int ;
+ 
+ALTER TABLE opilane ADD CONSTRAINT fk_ryhm 
+FOREIGN KEY (ryhm) REFERENCES ryhm(ryhmID);
+
+--kontrollimiseks täidame table opilane
+INSERT INTO opilane
+VALUES('Leena', 'Jegorova', '2002-12-10',1,'+3723856145', 'Tartu', 4.5, '566777',33);
+INSERT INTO opilane
+VALUES('Aleskander', 'Makovski', '1991-12-2',1,'+372385614', 'Pärnu', 4.5, '566777',22);
 ```
