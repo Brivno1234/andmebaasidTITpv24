@@ -1,5 +1,13 @@
 # andmebaasidTITpv24
 admebaasidega seotud SQL kood ja konspektid
+
+## Sidukord 
+-[Põhimõisted](#Pohimoisted)
+-[andmetüübid](#andmetüübid)
+-[SQL - Strukture Query Language](#SQL-Strukture-Query-Language)
+-[Seosed](#Seosed)
+-[PIIRANGUD](#PIIRANGUD)
+-[ALTER TABLE](#ALTER-TABLE)
 ## Põhimõisted 
 - andmebaas - struktureeritud andmete kogum
 - tebel = olem - сущность - entity
