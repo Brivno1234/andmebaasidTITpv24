@@ -130,3 +130,6 @@ VALUES
 (1, 1),
 (2, 2);
 ```
+<img width="794" height="203" alt="{A709C9AA-B0D4-47AE-9FE4-F3CDF1C74D43}" src="https://github.com/user-attachments/assets/7d082973-26e1-41a6-99c1-2d0d5548089b" />
+<img width="955" height="574" alt="{40C348D9-9D19-424E-8A20-991EB4D2F2AA}" src="https://github.com/user-attachments/assets/a6728de8-8d9d-4d65-87fc-e32928a75228" />
+
