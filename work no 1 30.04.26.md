@@ -128,4 +128,5 @@ SELECT * FROM hosted_at;
 INSERT INTO hosted_at(guestID, occupiedRoomID)
 VALUES
 (1, 1),
-(2, 2);```
+(2, 2);
+```
