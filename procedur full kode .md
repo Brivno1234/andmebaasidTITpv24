@@ -286,4 +286,23 @@ SELECT * FROM room;
 
 EXEC muudatusRoom 'drop', 'room', 'testVeerg';
 SELECT * FROM room;
+
+
+--No7  Protseduur, mis kuvab toodete nime, hinna ja lisab automaatselt hinnangu
+
+CREATE PROCEDURE kuvaRoomHinnang
+AS
+BEGIN
+    SELECT 
+        room_name,
+        priceRoom,
+        CASE 
+            WHEN priceRoom <=150 THEN 'madal hind'
+            ELSE 'kõrge hind'
+        END AS hinnang
+    FROM room
+END;
+
+-- KUTSE
+EXEC kuvaRoomHinnang
 ```
