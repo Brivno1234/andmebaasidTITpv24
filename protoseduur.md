@@ -132,3 +132,24 @@ EXEC muudatus 'drop','guest' , 'testVeerg' ,int
 
 <img width="497" height="213" alt="{C46CD038-A01A-40F1-BE55-F44061A8F8E9}" src="https://github.com/user-attachments/assets/8bde7a20-3133-4ba6-9667-ef57519e447b" />
 
+
+--7. Protseduur, mis kuvab toodete nime, hinna ja lisab automaatselt hinnangu 
+```sql
+CREATE PROCEDURE kuvaArveHinnang
+AS
+BEGIN
+    SELECT 
+        first_name,
+        arveSumma,
+        CASE 
+            WHEN arveSumma <=1000 THEN 'väike summa'
+            ELSE 'suur summa'
+        END AS hinnang
+    FROM guest
+END;
+
+-- KUTSE
+EXEC  kuvaArveHinnang
+```
+<img width="523" height="405" alt="{085F0B94-9DCA-454E-9AB6-680E6692BC0C}" src="https://github.com/user-attachments/assets/bc383268-ac81-4d96-a67e-888804db1284" />
+
