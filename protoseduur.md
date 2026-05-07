@@ -98,3 +98,37 @@ PRINT 'Max arve = ' + CONVERT(varchar, @maxArve);
 ```
 <img width="448" height="440" alt="{AF6C1058-079D-49C4-BB5F-CFAE0E66D4E7}" src="https://github.com/user-attachments/assets/6d2f9012-7a5f-4884-a257-f8d0a2345919" />
 
+
+--6. Dünaamiline SQL protseduuris (ALTER TABLE)
+--Protseduur veeru lisamiseks või kustutamiseks 
+```sql
+CREATE PROCEDURE muudatus
+    @tegevus varchar(10),
+    @tabelinimi varchar(25),
+    @veerunimi varchar(25),
+    @tyyp varchar(25) = NULL
+AS
+BEGIN
+    DECLARE @sqltegevus varchar(max);
+
+    SET @sqltegevus = CASE 
+        WHEN @tegevus = 'add' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' ADD ', @veerunimi, ' ', @tyyp)
+
+        WHEN @tegevus = 'drop' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' DROP COLUMN ', @veerunimi)
+    END;
+
+    PRINT @sqltegevus;
+    EXEC (@sqltegevus);
+END;
+--KUTSU
+-- veeru lisamine
+EXEC muudatus 'add', 'guest' , 'testVeerg' ,int
+SELECT * FROM guest;
+EXEC muudatus 'drop','guest' , 'testVeerg' ,int
+```
+<img width="503" height="202" alt="{881C6842-08DF-465C-BAE5-7F5BC42F638B}" src="https://github.com/user-attachments/assets/07af502e-2815-4e24-b180-bb7459ff249f" />
+
+<img width="497" height="213" alt="{C46CD038-A01A-40F1-BE55-F44061A8F8E9}" src="https://github.com/user-attachments/assets/8bde7a20-3133-4ba6-9667-ef57519e447b" />
+
