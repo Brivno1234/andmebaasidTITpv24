@@ -15,3 +15,8 @@ vajuta nuppu teosta et kaivitada protseduuri
 ## Proceduur mis kisab uue looma andmeid tabelisse ja kahe 
 
 <img width="687" height="289" alt="{9D8E5E07-9849-481D-8EB0-7C47216C36D6}" src="https://github.com/user-attachments/assets/61cdbe90-9035-4cd1-9fd2-346cfc218b19" />
+
+
+## kustuta proceduur
+
+<img width="772" height="240" alt="{F89E248F-AAB8-4107-9CB0-1BE807A5DDB9}" src="https://github.com/user-attachments/assets/924f2771-7bf7-4972-9971-64656fb7fae3" />
