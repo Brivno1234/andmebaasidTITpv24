@@ -29,3 +29,7 @@ vajuta nuppu teosta et kaivitada protseduuri
 ## 'procedur 'min max 
 
 <img width="820" height="494" alt="{BADFCC6E-7222-4E55-83D4-79BC3886D755}" src="https://github.com/user-attachments/assets/85b881d6-353d-4a89-a4a4-65f2e716f68d" />
+
+## 'procedur' loomad hinnang
+
+<img width="683" height="335" alt="{795EDD60-E51B-422A-A16E-38E465C2C982}" src="https://github.com/user-attachments/assets/adcb4691-31a3-45bf-a3a9-2f17dd96f97b" />
