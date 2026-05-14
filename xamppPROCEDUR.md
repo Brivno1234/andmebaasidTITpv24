@@ -20,6 +20,7 @@ vajuta nuppu teosta et kaivitada protseduuri
 ## kustuta proceduur
 
 <img width="772" height="240" alt="{F89E248F-AAB8-4107-9CB0-1BE807A5DDB9}" src="https://github.com/user-attachments/assets/924f2771-7bf7-4972-9971-64656fb7fae3" />
-## otsinig esimese tähe järgi 'procedur'
+
+## 'procedur'otsinig esimese tähe järgi 
 
 <img width="672" height="277" alt="{41516E20-284F-4522-81E7-A81157B8AFE7}" src="https://github.com/user-attachments/assets/cfe78d15-e1ec-4e6f-b67d-8b317c1f45d7" />
