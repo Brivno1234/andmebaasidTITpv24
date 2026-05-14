@@ -24,3 +24,8 @@ vajuta nuppu teosta et kaivitada protseduuri
 ## 'procedur' otsinig esimese tähe järgi 
 
 <img width="672" height="277" alt="{41516E20-284F-4522-81E7-A81157B8AFE7}" src="https://github.com/user-attachments/assets/cfe78d15-e1ec-4e6f-b67d-8b317c1f45d7" />
+
+
+## 'procedur 'min max 
+
+<img width="820" height="494" alt="{BADFCC6E-7222-4E55-83D4-79BC3886D755}" src="https://github.com/user-attachments/assets/85b881d6-353d-4a89-a4a4-65f2e716f68d" />
