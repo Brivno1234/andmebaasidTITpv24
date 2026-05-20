@@ -140,4 +140,18 @@ Vihje! UPDATE õigused parem lubada SQL käsuga
 GRANT UPDATE (movieCost, movieDir)
 ON movies
 TO Produtsent;
-    
+
+--derektorIVAN saab vaadata tabelisisu
+<img width="800" height="361" alt="{E53EA7E3-DF3C-4662-B500-4F78C7655770}" src="https://github.com/user-attachments/assets/3fc8c01b-2375-4fc8-9b48-b7ef24ff46c8" />
+
+--derectorIVAN saab lisada andmeid tabelisse loomad
+<img width="721" height="651" alt="{C1488628-294D-4F7A-9C16-249C45B154F4}" src="https://github.com/user-attachments/assets/85f3cdd2-0036-4c7a-97fd-c802b04ac4fc" />
+
+-- derektorIVAN ei saa kustutada tabelist 
+<img width="811" height="675" alt="{DCAB01D7-EEBD-4D0D-A8FC-9479DEA96B83}" src="https://github.com/user-attachments/assets/5df16469-8ce8-4086-8247-032aff874a92" />
+
+-- ei saa tabeleid luua
+<img width="783" height="692" alt="{B05936E9-7279-40FF-B386-EC1E09082037}" src="https://github.com/user-attachments/assets/28e595e4-11e6-4c56-974b-3b4c03b7e557" />
+
+--iga kasutaja ise saab kontrollida tamale määratud õigused
+<img width="720" height="742" alt="{D5325D89-708E-4713-A275-345D3E6A3A37}" src="https://github.com/user-attachments/assets/df9b9b2f-73c0-4cc7-8816-62996e21c1d4" />
