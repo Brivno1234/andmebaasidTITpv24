@@ -43,7 +43,6 @@ New Login...
 
 >>>>>pilt
 <img width="701" height="658" alt="{2749E150-F131-45A6-9A79-22E897D4D449}" src="https://github.com/user-attachments/assets/11fad958-7bb9-4f19-9b4f-8043473d3fc9" />
-<img width="249" height="495" alt="{074470B6-8525-4B02-A6BD-55BBAA09C53F}" src="https://github.com/user-attachments/assets/267195a8-5b32-427a-8255-12691f2e41ce" />
 
 
 Harjutamiseks võib eemaldada linnukese:  User must change password at next login
@@ -69,6 +68,8 @@ Tee paremklikk:  New User...
 Seosta kasutaja loginiga
 
 >>>>>pilt
+<img width="249" height="495" alt="{074470B6-8525-4B02-A6BD-55BBAA09C53F}" src="https://github.com/user-attachments/assets/267195a8-5b32-427a-8255-12691f2e41ce" />
+
 
 Membership ja õigused
 
@@ -86,6 +87,16 @@ Lahendus
     Server → Properties
     Security
     Vali: SQL Server and Windows Authentication mode
+
+GRANT käsud õiguste jagamiseks
+
+GRANT käsuga antakse kasutajale õigused.
+Käsk 	Tähendus
+SELECT 	Lugemine
+INSERT 	Lisamine
+UPDATE 	Muutmine
+DELETE 	Kustutamine
+
 ```sql 
 -- õiguste määramine 
 --GRANT -kasutaja õiguste lubamine - разришения прав пользователя 
@@ -97,16 +108,9 @@ GRANT select,insert on loomad to derektorIVAN;
 
 DENY delete  on loomad to derektorIVAN;
 ```
-GRANT käsud õiguste jagamiseks
-
-GRANT käsuga antakse kasutajale õigused.
-Käsk 	Tähendus
-SELECT 	Lugemine
-INSERT 	Lisamine
-UPDATE 	Muutmine
-DELETE 	Kustutamine
 
 >>>>>pilt
+<img width="705" height="732" alt="{7E2EF4E6-7DE8-4C98-9E8E-EB49022EE7DC}" src="https://github.com/user-attachments/assets/f21fd517-5e3d-4c6c-9f33-18b26e4d873a" />
 
 
     
