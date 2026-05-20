@@ -54,6 +54,8 @@ Menüüst Server Roles saab määrata serveri üldised õigused.
 Tavaliselt piisab rollist: public
 
 >>>>>pilt
+<img width="714" height="658" alt="{131F8E70-3FC6-428F-A3B2-86AE4B4EF259}" src="https://github.com/user-attachments/assets/bd7e245a-4b77-4e4d-a91d-b6e68fdb2b82" />
+
 
 2. Andmebaasi kasutaja loomine (User)
 
