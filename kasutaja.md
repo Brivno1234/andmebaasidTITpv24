@@ -155,3 +155,10 @@ TO Produtsent;
 
 --iga kasutaja ise saab kontrollida tamale määratud õigused
 <img width="720" height="742" alt="{D5325D89-708E-4713-A275-345D3E6A3A37}" src="https://github.com/user-attachments/assets/df9b9b2f-73c0-4cc7-8816-62996e21c1d4" />
+
+--uuendame vanus kus loomID=1
+<img width="729" height="632" alt="{551D4C76-FA27-47E5-AF6B-579CA4807551}" src="https://github.com/user-attachments/assets/dd73977c-8f7d-4108-b321-1d3189a47c3b" />
+
+<img width="811" height="231" alt="{D7256195-76FD-4C7A-B8BE-CDE45C99B452}" src="https://github.com/user-attachments/assets/011fa3d5-f5a5-47c7-b344-487197f77803" />
+
+
