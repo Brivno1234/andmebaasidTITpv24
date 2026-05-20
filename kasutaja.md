@@ -124,6 +124,7 @@ DENY delete  on loomad to derektorIVAN;
 <img width="811" height="675" alt="{DCAB01D7-EEBD-4D0D-A8FC-9479DEA96B83}" src="https://github.com/user-attachments/assets/5df16469-8ce8-4086-8247-032aff874a92" />
 
 -- ei saa tabeleid luua
+
 <img width="783" height="692" alt="{B05936E9-7279-40FF-B386-EC1E09082037}" src="https://github.com/user-attachments/assets/28e595e4-11e6-4c56-974b-3b4c03b7e557" />
 
 --iga kasutaja ise saab kontrollida tamale määratud õigused
