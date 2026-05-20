@@ -86,7 +86,17 @@ Lahendus
     Server → Properties
     Security
     Vali: SQL Server and Windows Authentication mode
+```sql 
+-- õiguste määramine 
+--GRANT -kasutaja õiguste lubamine - разришения прав пользователя 
+--DENY -kasutaja õiguste keelamine keelamine - запрет
 
+GRANT select on loomad to derektorIVAN;
+GRANT insert on loomad to derektorIVAN;
+GRANT select,insert on loomad to derektorIVAN;
+
+DENY delete  on loomad to derektorIVAN;
+```
 GRANT käsud õiguste jagamiseks
 
 GRANT käsuga antakse kasutajale õigused.
