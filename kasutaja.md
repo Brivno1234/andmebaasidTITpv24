@@ -1,12 +1,12 @@
-##õpetaja kasutaja.md konspekt
-##Permissions of Fixed Database Roles (Database Engine)
+## õpetaja kasutaja.md konspekt
+## Permissions of Fixed Database Roles (Database Engine)
 <img width="612" height="770" alt="pilt" src="https://github.com/user-attachments/assets/fbe4c2d7-4e67-4e53-9e6b-60dbacec0758" />
 
 
-##SQL Server – Kasutajate autentimine ja õiguste haldamine
+## SQL Server – Kasutajate autentimine ja õiguste haldamine
 Mis on autentimine SQL Serveris?
 
-###Autentimine tähendab kasutaja tuvastamist ehk kontrollimist, kas kasutajal on õigus SQL Serverisse sisse logida.
+### Autentimine tähendab kasutaja tuvastamist ehk kontrollimist, kas kasutajal on õigus SQL Serverisse sisse logida.
 
 SQL Serveris kasutatakse kahte peamist autentimise tüüpi:
 1. Windows Authentication
