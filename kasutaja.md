@@ -29,7 +29,16 @@ Selle puhul luuakse kasutaja otse SQL Serverisse.
 Näide kasutajast: DirectorNimi
 Parool: director
 Kasutaja loomine SQL Serveris
+```sql
+Create table loomad(
+loomadID int Primary key identity(1,1),
+loomNimi varchar(25) not null,
+vanus int check(vanus>0),
+chip bit)
 
+insert Into loomad(loomNimi,vanus,chip)
+VALUES ('koer Mart',15,0);
+```
 1. Serveritaseme kasutaja loomine (Login)
 Sammud
 
