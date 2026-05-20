@@ -42,7 +42,10 @@ Tee paremklikk ja vali:
 New Login...
 
 >>>>>pilt
-{C4FDDE4E-9535-4B93-83EF-8C5B82446BD2}.png
+<img width="446" height="418" alt="{7E1C4B4B-30B2-4FC9-95DF-D4978E285579}" src="https://github.com/user-attachments/assets/ee2defe8-6036-4391-a968-342c0c21a377" />
+
+
+
 
 Harjutamiseks võib eemaldada linnukese:  User must change password at next login
 
