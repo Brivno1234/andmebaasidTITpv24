@@ -9,4 +9,6 @@
 
 ## KUSTUTAMINE
 
--<img width="613" height="667" alt="{F31C000A-695B-40D0-8C08-C3AB4CD3A71B}" src="https://github.com/user-attachments/assets/27decaee-6b5a-48eb-bbe4-9de626f16a7c" />
+- <img width="613" height="667" alt="{F31C000A-695B-40D0-8C08-C3AB4CD3A71B}" src="https://github.com/user-attachments/assets/27decaee-6b5a-48eb-bbe4-9de626f16a7c" />
+
+- <img width="812" height="309" alt="{4BC136AA-C2B9-436D-B199-55EDF791F7CF}" src="https://github.com/user-attachments/assets/d4c734f8-fd84-4f5c-8437-bd8b04f84d83" />
