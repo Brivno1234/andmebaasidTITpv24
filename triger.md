@@ -1,7 +1,8 @@
 ## TRIGGER - triger - pööstik 
 - andmedaasi objekt, mis  automatselt  käivitud tabel sündmused ( INSERT , UPDATE, DELETE).
 
-   ```sql
+
+```sql
 create database trigerISTITpv24;
 
 use trigerISTITpv24;
@@ -67,4 +68,4 @@ values ('Pärnu',50000);
 
 select * from linnad;
 select * from logi;
-  ```
+```
