@@ -99,3 +99,9 @@ select * from logi;
 
 - <img width="825" height="242" alt="{F68E8EA9-18C1-4F0E-9654-CCB7A68FAE1B}" src="https://github.com/user-attachments/assets/0ff55c05-5303-46ef-9d8d-367109136396" />
 
+## KONTROLIMINE sekretarIvan
+
+- <img width="969" height="329" alt="{A47A925A-9D2E-41C7-A260-7A3729692525}" src="https://github.com/user-attachments/assets/ef11b42f-ca85-4e3c-8572-375a02c06646" />
+
+
+
