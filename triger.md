@@ -71,6 +71,9 @@ select * from logi;
 ```
 - <img width="601" height="494" alt="{00279FE3-A6A3-4C74-834F-B0FF4E607758}" src="https://github.com/user-attachments/assets/b08eeb83-6363-4beb-9ece-f78feb2c428f" />
 
+- <img width="595" height="227" alt="{6AF43BD6-4B89-46CD-BDB9-6F4871D84CB3}" src="https://github.com/user-attachments/assets/9dd6c44b-37f0-4764-9b26-8d2ea8c2c5b3" />
+
+
 
 ## XAMPP TRIGGER
 
