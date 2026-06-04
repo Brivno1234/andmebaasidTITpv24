@@ -45,3 +45,5 @@
 - Unique Key https://www.w3schools.com/sql/sql_unique.asp
 - Simple Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
 - Composite Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
+- Compound Key https://www.geeksforgeeks.org/sql/composite-key-in-sql/
+- 
