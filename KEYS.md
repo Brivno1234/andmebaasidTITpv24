@@ -48,6 +48,18 @@
 
 ## Candidate Key
 
+- Võtit võib nimetada atribuudiks/atribuutide kogumiks, mis aitab meil tabelis (või seoses) rida (või tuplet) üheselt tuvastada. Võtit kasutatakse ka siis, kui soovime luua seoseid relatsioonandmebaasi erinevate veergude ja tabelite vahel.
+
+
+## Alternate Key  
+
+- Alternatiivvõti on kandidaatvõti, mida ei valita primaarvõtmeks, kuid mis suudab siiski tabelis kirje unikaalselt tuvastada.
+- Kui kirjeid saab unikaalselt tuvastada mitu atribuuti, valitakse primaarvõtmeks ainult üks.
+- Ülejäänud unikaalsed atribuudid toimivad alternatiivvõtmetena, pakkudes alternatiivseid viise kirjete tuvastamiseks.
+
+
+
+
 
 ## Allikad:
 - Primary Key https://www.w3schools.com/sql/sql_primarykey.asp
@@ -57,3 +69,5 @@
 - Composite Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
 - Compound Key https://www.geeksforgeeks.org/sql/composite-key-in-sql/
 - Super key (pealkirjas - What is a Super key in SQL?) https://medium.com/analytics-vidhya/difference-between-sql-keys-primary-key-super-key-candidate-key-foreign-key-d3b54097feeb
+- Candidate Key https://www.geeksforgeeks.org/dbms/why-candidate-key-is-called-a-minimal-super-key/
+- Alternate Key  https://www.geeksforgeeks.org/sql/sql-alternate-key/
