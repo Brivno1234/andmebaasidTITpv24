@@ -22,13 +22,21 @@
 
 
 
+
 ## Simple Key
 
 - Primary key, mis koosneb ühest veerust.
 
 
 
+## Composite Key  
 
+- A primary key that consists of multiple columns.
+
+
+## Compound Key
+
+- Compound Key on Primary Key, mis koosneb kahest või enamast veerust, mis koos identifitseerivad unikaalselt iga tabeli kirjet. Need veerud ei pruugi eraldi olla unikaalsed, kuid nende kombineeritud väärtus tagab unikaalsuse.
 
 
 ## Allikad:
@@ -36,3 +44,4 @@
 - Foreign Key https://www.w3schools.com/sql/sql_foreignkey.asp
 - Unique Key https://www.w3schools.com/sql/sql_unique.asp
 - Simple Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
+- Composite Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
