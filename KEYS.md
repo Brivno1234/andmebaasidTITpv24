@@ -38,6 +38,16 @@
 
 - Compound Key on Primary Key, mis koosneb kahest või enamast veerust, mis koos identifitseerivad unikaalselt iga tabeli kirjet. Need veerud ei pruugi eraldi olla unikaalsed, kuid nende kombineeritud väärtus tagab unikaalsuse.
 
+## Super key
+
+- Super key on single key või võtmete rühm, mis võimaldab tabelis olevaid tuupleid unikaalselt tuvastada.
+- Super Key võivad sisaldada mitut atribuuti, mis ei pruugi tabelis olevaid tuupleid iseseisvalt tuvastada, kuid teatud võtmetega rühmitades suudavad nad tuupleid unikaalselt tuvastada.
+
+
+
+
+## Candidate Key
+
 
 ## Allikad:
 - Primary Key https://www.w3schools.com/sql/sql_primarykey.asp
@@ -46,4 +56,4 @@
 - Simple Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
 - Composite Key (pealkirjas - Types of PRIMARY KEYS:) https://www.geeksforgeeks.org/sql/primary-key-constraint-in-sql/
 - Compound Key https://www.geeksforgeeks.org/sql/composite-key-in-sql/
-- 
+- Super key(pealkirjas - What is a Super key in SQL?) https://medium.com/analytics-vidhya/difference-between-sql-keys-primary-key-super-key-candidate-key-foreign-key-d3b54097feeb
