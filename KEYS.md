@@ -6,6 +6,14 @@
 - Piirang tagab unikaalsed väärtused ja ei tohi sisaldada NULL-väärtusi 
 (see on nii piirangu kui ka kitsenduse PRIMARY KEYkombinatsioon ).UNIQUENOT NOT NULL
 
+Näide minu andmebaasist:
+Tabelis Cars on CarID Primary Key. Igal Žiguli autol on oma ID.
+```sql
+CREATE TABLE Cars (
+CarID INT PRIMARY KEY INDENTITY(1,1),
+ Model VARCHAR(50),
+ YearMade INT );
+```
 
 
 ## Foreign Key
@@ -13,7 +21,10 @@
 - Piirang FOREIGN KEYloob kahe tabeli vahele lingi ja takistab toiminguid, mis nendevahelise lingi hävitavad.
 - A FOREIGN KEYon tabeli veerg, mis viitab PRIMARY KEYteises tabelis olevale veerule.
 
+```sql
 
+
+```
 
 ## Unique Key
 
@@ -21,12 +32,14 @@
 - Nii UNIQUE- kui ka PRIMARY KEY-piirangud tagavad veeru või veergude komplekti unikaalsuse. Siiski võib tabeli kohta olla mitu UNIQUE-piirangut, kuid ainult üks PRIMARY KEY-piirang tabeli kohta.
 
 
+```sql
 
+
+```
 
 ## Simple Key
 
 - Primary key, mis koosneb ühest veerust.
-
 
 
 ## Composite Key  
