@@ -94,6 +94,7 @@ Kõigi nende abil saab ühe konkreetse auto üles leida.
 
 - Võtit võib nimetada atribuudiks/atribuutide kogumiks, mis aitab meil tabelis (või seoses) rida (või tuplet) üheselt tuvastada. Võtit kasutatakse ka siis, kui soovime luua seoseid relatsioonandmebaasi erinevate veergude ja tabelite vahel.
 
+Näide minu: Tabelis võivad nii CarID kui ka PlateNumber olla unikaalsed ja sobida Primary Key.
 
 ## Alternate Key  
 
@@ -101,7 +102,7 @@ Kõigi nende abil saab ühe konkreetse auto üles leida.
 - Kui kirjeid saab unikaalselt tuvastada mitu atribuuti, valitakse primaarvõtmeks ainult üks.
 - Ülejäänud unikaalsed atribuudid toimivad alternatiivvõtmetena, pakkudes alternatiivseid viise kirjete tuvastamiseks.
 
-
+Näide minu: Kui Primary Key on CarID, siis PlateNumber muutub Alternate Key
 
 
 
