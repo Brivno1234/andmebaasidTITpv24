@@ -6,13 +6,14 @@
 - Piirang tagab unikaalsed väärtused ja ei tohi sisaldada NULL-väärtusi 
 (see on nii piirangu kui ka kitsenduse PRIMARY KEYkombinatsioon ).UNIQUENOT NOT NULL
 
-Näide minu andmebaasist:
+Näide minu:
 Tabelis Cars on CarID Primary Key. Igal Žiguli autol on oma ID.
+
 ```sql
 CREATE TABLE Cars (
 CarID INT PRIMARY KEY INDENTITY(1,1),
- Model VARCHAR(50),
- YearMade INT );
+Model VARCHAR(50),
+YearMade INT );
 ```
 
 
@@ -21,9 +22,15 @@ CarID INT PRIMARY KEY INDENTITY(1,1),
 - Piirang FOREIGN KEYloob kahe tabeli vahele lingi ja takistab toiminguid, mis nendevahelise lingi hävitavad.
 - A FOREIGN KEYon tabeli veerg, mis viitab PRIMARY KEYteises tabelis olevale veerule.
 
+Näide minu: abelis Owners näitab CarID, milline auto kuulub omanikule.
+
 ```sql
-
-
+CREATE TABLE Owners (
+OwnerID INT PRIMARY KEY,
+OwnerName VARCHAR(50),
+CarID INT,
+FOREIGN KEY (CarID) REFERENCES Cars(CarID)
+);
 ```
 
 ## Unique Key
@@ -31,9 +38,13 @@ CarID INT PRIMARY KEY INDENTITY(1,1),
 - UNIQUE-piirang tagab, et kõik veeru väärtused on unikaalsed.
 - Nii UNIQUE- kui ka PRIMARY KEY-piirangud tagavad veeru või veergude komplekti unikaalsuse. Siiski võib tabeli kohta olla mitu UNIQUE-piirangut, kuid ainult üks PRIMARY KEY-piirang tabeli kohta.
 
+Näide minu: Auto registreerimisnumber peab olema igal autol erinev.
 
 ```sql
-
+CREATE TABLE Registrations (
+RegistrationID INT PRIMARY KEY,
+PlateNumber VARCHAR(20) UNIQUE
+);
 
 ```
 
@@ -41,22 +52,42 @@ CarID INT PRIMARY KEY INDENTITY(1,1),
 
 - Primary key, mis koosneb ühest veerust.
 
+Näide minu: CarID on üks veerg, mille järgi saab auto leida.
+
+```sql
+CarID INT PRIMARY KEY
+```
 
 ## Composite Key  
 
 - A primary key that consists of multiple columns.
 
+Näide minu: Üks auto võib saada mitu remonti ja üks remont võib olla seotud mitme autoga.
+
+```sql
+PRIMARY KEY (CarID, RepairID)
+```
 
 ## Compound Key
 
 - Compound Key on Primary Key, mis koosneb kahest või enamast veerust, mis koos identifitseerivad unikaalselt iga tabeli kirjet. Need veerud ei pruugi eraldi olla unikaalsed, kuid nende kombineeritud väärtus tagab unikaalsuse.
+
+Näide minu: See näitab, millised varuosad kuuluvad millistele autodele.
+
+```sql
+PRIMARY KEY (CarID, PartID)
+```
 
 ## Super key
 
 - Super key on single key või võtmete rühm, mis võimaldab tabelis olevaid tuupleid unikaalselt tuvastada.
 - Super Key võivad sisaldada mitut atribuuti, mis ei pruugi tabelis olevaid tuupleid iseseisvalt tuvastada, kuid teatud võtmetega rühmitades suudavad nad tuupleid unikaalselt tuvastada.
 
-
+Näide minu:
+- CarID
+- PlateNumber
+- CarID + PlateNumber
+Kõigi nende abil saab ühe konkreetse auto üles leida.
 
 
 ## Candidate Key
