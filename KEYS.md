@@ -53,6 +53,13 @@ PlateNumber VARCHAR(20) UNIQUE
 );
 
 ```
+registreerimisnumbrid:Väljal „PlateNumber” on ainulaadne piirang, seega topeltnumbrid pole võimalikud.
+- <img width="203" height="98" alt="{E5DDB061-9AF1-4D6A-A903-B451966C2C1B}" src="https://github.com/user-attachments/assets/3dc0428e-79f9-4b42-a547-4e7bd980b4ff" />
+
+
+
+
+
 
 ## Simple Key
 
