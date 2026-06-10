@@ -71,6 +71,12 @@ Näide minu: CarID on üks veerg, mille järgi saab auto leida.
 CarID INT PRIMARY KEY
 ```
 
+Autode tabeli esmane võti:Lihtne võti koosneb ühest väljast – auto ID.
+
+-  <img width="152" height="100" alt="{B17C9C51-07D6-461A-B8DC-8606A3093226}" src="https://github.com/user-attachments/assets/2be6934c-088c-492f-9eea-ba2b0a782924" />
+
+
+
 ## Composite Key  
 
 - A primary key that consists of multiple columns.
@@ -80,6 +86,12 @@ Näide minu: Üks auto võib saada mitu remonti ja üks remont võib olla seotud
 ```sql
 PRIMARY KEY (CarID, RepairID)
 ```
+auto remondi tabel:Liitvõti koosneb kahest väljast: CarID ja RepairID.
+
+ - <img width="206" height="116" alt="{5AD9EAAE-992A-4D0E-B074-A4F6B45FA434}" src="https://github.com/user-attachments/assets/6bd65b28-3d2c-4cbb-b05b-a9aa289cddeb" />
+
+
+
 
 ## Compound Key
 
