@@ -1,5 +1,5 @@
 # AndmebaasidTITpv24
-[KEYS.md](#KEYS.md) | [kasutaja.md](#kasutaja.md) | [kysimused.md](#kysimused.md)  | [protoseduur.md](#protoseduur.md) | [xamppPROCEDUR.md](#xamppPROCEDUR.md) | [triger.md](#triger.md) | [work no 1 30.04.26.md](#work_no_1_30.04.26.md) | [DATABASEstart.md](#DATABASEstart.md) |[kasutaja Xampp.md](#kasutaja_Xampp.md)
+[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [work no 1 30.04.26](work_no_1_30.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
