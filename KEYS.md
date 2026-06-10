@@ -104,6 +104,16 @@ Näide minu: Tabelis võivad nii CarID kui ka PlateNumber olla unikaalsed ja sob
 
 Näide minu: Kui Primary Key on CarID, siis PlateNumber muutub Alternate Key
 
+## Minu andmebaasi diagramm
+
+Diagrammil on kujutatud Žiguli autode andmebaasi struktuur ja tabelite vahelised seosed.
+Peamine tabel on Cars, kus hoitakse andmeid autode kohta (mudel, mootor, värv, tootmisaasta jne). Teised tabelid (Owners, Registrations, Repairs, Parts) on seotud tabeliga Cars läbi Foreign Key võtmete.
+Diagramm aitab paremini mõista tabelite struktuuri ja nende omavahelisi seoseid.
+
+- <img width="913" height="768" alt="{BEBBD2B1-CC95-421E-A2D9-FFAF0BA2402E}" src="https://github.com/user-attachments/assets/1772c89d-43d6-4608-bcb5-cb5cdade9034" />
+
+
+
 
 
 ## Allikad:
