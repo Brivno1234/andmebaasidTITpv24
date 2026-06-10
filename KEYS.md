@@ -1,4 +1,18 @@
 # Andmebaasi võtmed (Keys)
+## Sisukord 
+- [Primary Key](#Primary_Key)
+- [Foreign Key](#Foreign_Key)
+- [Unique Key](#Unique_Key)
+- [Simple Key](#Simple_Key)
+- [Composite Key](#Composite_Key)
+- [Compound Key](#Compound_Key)
+- [Super Key](#Super_Key)
+- [Alternate Key](#Alternate_Key)
+- [Minu andmebaasi diagramm](#Minu_andmebaasi_diagramm)
+- [kimp kõiki märke](#kimp_kõiki_märke)
+- [Minu kod:](#Minu_kod:)
+- [Allikad:](#Allikad:)
+
 
 ## Primary Key
 
@@ -161,7 +175,7 @@ Diagramm aitab paremini mõista tabelite struktuuri ja nende omavahelisi seoseid
 <img width="979" height="611" alt="{597E0F91-089C-4549-A2DA-863F569E42EE}" src="https://github.com/user-attachments/assets/aa4fecbd-a925-4c97-bc74-00a480a0d5e1" />
 
 
-## kimp kõiki märke 
+## kimp kõiki märke
  <img width="750" height="161" alt="{1223F17D-798A-48D3-935A-11ED577274B3}" src="https://github.com/user-attachments/assets/90503dec-c1c7-4643-9267-5407ed0fafc6" />
 
 ## Minu kod:
