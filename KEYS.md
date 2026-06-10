@@ -17,7 +17,7 @@ YearMade INT );
 ```
 
 Autode tabel:
-- <img width="562" height="104" alt="{3A05339B-F90D-44F0-82BE-E1238F82D1E2}" src="https://github.com/user-attachments/assets/7a617e78-6d99-4969-aa5d-67dabefc9798" />
+ <img width="562" height="104" alt="{3A05339B-F90D-44F0-82BE-E1238F82D1E2}" src="https://github.com/user-attachments/assets/7a617e78-6d99-4969-aa5d-67dabefc9798" />
 
 
 ## Foreign Key
@@ -36,7 +36,7 @@ FOREIGN KEY (CarID) REFERENCES Cars(CarID)
 );
 ```
 Autode ja omanike vaheline seos:
-- <img width="229" height="102" alt="{7A5F5FF2-701B-44B6-A9B2-B3767C1B68E0}" src="https://github.com/user-attachments/assets/8169c568-7898-4cb5-9abc-50830a96e066" />
+ <img width="229" height="102" alt="{7A5F5FF2-701B-44B6-A9B2-B3767C1B68E0}" src="https://github.com/user-attachments/assets/8169c568-7898-4cb5-9abc-50830a96e066" />
 
 
 ## Unique Key
@@ -54,7 +54,7 @@ PlateNumber VARCHAR(20) UNIQUE
 
 ```
 registreerimisnumbrid:Väljal „PlateNumber” on ainulaadne piirang, seega topeltnumbrid pole võimalikud.
-- <img width="203" height="98" alt="{E5DDB061-9AF1-4D6A-A903-B451966C2C1B}" src="https://github.com/user-attachments/assets/3dc0428e-79f9-4b42-a547-4e7bd980b4ff" />
+ <img width="203" height="98" alt="{E5DDB061-9AF1-4D6A-A903-B451966C2C1B}" src="https://github.com/user-attachments/assets/3dc0428e-79f9-4b42-a547-4e7bd980b4ff" />
 
 
 
@@ -73,7 +73,7 @@ CarID INT PRIMARY KEY
 
 Autode tabeli esmane võti:Lihtne võti koosneb ühest väljast – auto ID.
 
--  <img width="152" height="100" alt="{B17C9C51-07D6-461A-B8DC-8606A3093226}" src="https://github.com/user-attachments/assets/2be6934c-088c-492f-9eea-ba2b0a782924" />
+  <img width="152" height="100" alt="{B17C9C51-07D6-461A-B8DC-8606A3093226}" src="https://github.com/user-attachments/assets/2be6934c-088c-492f-9eea-ba2b0a782924" />
 
 
 
@@ -88,7 +88,7 @@ PRIMARY KEY (CarID, RepairID)
 ```
 auto remondi tabel:Liitvõti koosneb kahest väljast: CarID ja RepairID.
 
- - <img width="206" height="116" alt="{5AD9EAAE-992A-4D0E-B074-A4F6B45FA434}" src="https://github.com/user-attachments/assets/6bd65b28-3d2c-4cbb-b05b-a9aa289cddeb" />
+  <img width="206" height="116" alt="{5AD9EAAE-992A-4D0E-B074-A4F6B45FA434}" src="https://github.com/user-attachments/assets/6bd65b28-3d2c-4cbb-b05b-a9aa289cddeb" />
 
 
 
@@ -104,7 +104,7 @@ PRIMARY KEY (CarID, PartID)
 ```
 Autoosade tabel:Liitvõti koosneb CarID ja PartID väljadest, mis on ka võõrvõtmed.
 
-- <img width="186" height="25" alt="{89B845C5-5B02-4202-95DD-E5C492713798}" src="https://github.com/user-attachments/assets/e689253f-cd64-4645-b620-331cbf672fb8" />
+ <img width="186" height="25" alt="{89B845C5-5B02-4202-95DD-E5C492713798}" src="https://github.com/user-attachments/assets/e689253f-cd64-4645-b620-331cbf672fb8" />
 
 
 ## Super key
@@ -120,7 +120,7 @@ Kõigi nende abil saab ühe konkreetse auto üles leida.
 
 sõiduki andmed ja registreerimismärk:Auto ID, numbrimärk või nende kombinatsioon võimaldavad teil sõiduki üheselt asukoha määrata. Need on näited supervõtmetest.
 
-- <img width="248" height="109" alt="{9BC8D5B8-BB87-4405-91C2-D38758FF9FA6}" src="https://github.com/user-attachments/assets/5379c115-7fa3-46bf-a4ca-2dc06c132abd" />
+ <img width="248" height="109" alt="{9BC8D5B8-BB87-4405-91C2-D38758FF9FA6}" src="https://github.com/user-attachments/assets/5379c115-7fa3-46bf-a4ca-2dc06c132abd" />
 
 
 
@@ -130,7 +130,7 @@ sõiduki andmed ja registreerimismärk:Auto ID, numbrimärk või nende kombinats
 
 Näide minu: Tabelis võivad nii CarID kui ka PlateNumber olla unikaalsed ja sobida Primary Key.
 
-- <img width="238" height="108" alt="{2A7AEFA3-CDC9-4412-A66D-5B35D97094B7}" src="https://github.com/user-attachments/assets/daa7d102-a495-4717-9076-248a49fadf66" />
+ <img width="238" height="108" alt="{2A7AEFA3-CDC9-4412-A66D-5B35D97094B7}" src="https://github.com/user-attachments/assets/daa7d102-a495-4717-9076-248a49fadf66" />
 
 
 Nii auto ID kui ka numbrimärk on unikaalsed ja neid saab valida primaarvõtmeks.
@@ -144,7 +144,7 @@ Nii auto ID kui ka numbrimärk on unikaalsed ja neid saab valida primaarvõtmeks
 
 Näide minu: Kui Primary Key on CarID, siis PlateNumber muutub Alternate Key.
 
-- <img width="162" height="101" alt="{57FDFD79-2B3B-445D-BB6F-B15C5B11C4DD}" src="https://github.com/user-attachments/assets/4d248368-d641-43d1-9c83-b86453161367" />
+ <img width="162" height="101" alt="{57FDFD79-2B3B-445D-BB6F-B15C5B11C4DD}" src="https://github.com/user-attachments/assets/4d248368-d641-43d1-9c83-b86453161367" />
 
 Minu andmebaasis on primaarvõti CarID ja plateNumber on alternatiivvõti, kuna see on samuti unikaalne, kuid mitte primaarvõtmeks valitud.
 
@@ -155,10 +155,10 @@ Diagrammil on kujutatud Žiguli autode andmebaasi struktuur ja tabelite vahelise
 Peamine tabel on Cars, kus hoitakse andmeid autode kohta (mudel, mootor, värv, tootmisaasta jne). Teised tabelid (Owners, Registrations, Repairs, Parts) on seotud tabeliga Cars läbi Foreign Key võtmete.
 Diagramm aitab paremini mõista tabelite struktuuri ja nende omavahelisi seoseid.
 
-- <img width="913" height="768" alt="{BEBBD2B1-CC95-421E-A2D9-FFAF0BA2402E}" src="https://github.com/user-attachments/assets/1772c89d-43d6-4608-bcb5-cb5cdade9034" />
+ <img width="913" height="768" alt="{BEBBD2B1-CC95-421E-A2D9-FFAF0BA2402E}" src="https://github.com/user-attachments/assets/1772c89d-43d6-4608-bcb5-cb5cdade9034" />
 
 ## kimp kõiki märke 
-- <img width="750" height="161" alt="{1223F17D-798A-48D3-935A-11ED577274B3}" src="https://github.com/user-attachments/assets/90503dec-c1c7-4643-9267-5407ed0fafc6" />
+ <img width="750" height="161" alt="{1223F17D-798A-48D3-935A-11ED577274B3}" src="https://github.com/user-attachments/assets/90503dec-c1c7-4643-9267-5407ed0fafc6" />
 
 
 
