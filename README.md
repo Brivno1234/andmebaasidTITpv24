@@ -1,9 +1,9 @@
 # AndmebaasidTITpv24
-[Põhimõisted](#põhimõisted),[Andmetüübid](#andmetüübid)
+[KEYS.md](#KEYS.md) | [kasutaja.md](#kasutaja.md) | [kysimused.md](#kysimused.md)  | [protoseduur.md](#protoseduur.md) | [xamppPROCEDUR.md](#xamppPROCEDUR.md) | [triger.md](#triger.md) | [work no 1 30.04.26.md](#work_no_1_30.04.26.md) | [DATABASEstart.md](#DATABASEstart.md) |[kasutaja Xampp.md](#kasutaja_Xampp.md)
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
-- [Põhimõisted](#põhimõisted),[Andmetüübid](#andmetüübid)
+- [Põhimõisted](#põhimõisted)
 - [Andmetüübid](#andmetüübid)
 - [SEOSED](#SEOSED)
 - [Piirangud](#Piirangud)
