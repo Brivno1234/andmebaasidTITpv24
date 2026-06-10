@@ -102,6 +102,10 @@ Näide minu: See näitab, millised varuosad kuuluvad millistele autodele.
 ```sql
 PRIMARY KEY (CarID, PartID)
 ```
+Autoosade tabel:Liitvõti koosneb CarID ja PartID väljadest, mis on ka võõrvõtmed.
+
+- <img width="186" height="25" alt="{89B845C5-5B02-4202-95DD-E5C492713798}" src="https://github.com/user-attachments/assets/e689253f-cd64-4645-b620-331cbf672fb8" />
+
 
 ## Super key
 
@@ -114,6 +118,11 @@ Näide minu:
 - CarID + PlateNumber
 Kõigi nende abil saab ühe konkreetse auto üles leida.
 
+sõiduki andmed ja registreerimismärk:Auto ID, numbrimärk või nende kombinatsioon võimaldavad teil sõiduki üheselt asukoha määrata. Need on näited supervõtmetest.
+
+- <img width="248" height="109" alt="{9BC8D5B8-BB87-4405-91C2-D38758FF9FA6}" src="https://github.com/user-attachments/assets/5379c115-7fa3-46bf-a4ca-2dc06c132abd" />
+
+
 
 ## Candidate Key
 
@@ -121,13 +130,24 @@ Kõigi nende abil saab ühe konkreetse auto üles leida.
 
 Näide minu: Tabelis võivad nii CarID kui ka PlateNumber olla unikaalsed ja sobida Primary Key.
 
+- <img width="238" height="108" alt="{2A7AEFA3-CDC9-4412-A66D-5B35D97094B7}" src="https://github.com/user-attachments/assets/daa7d102-a495-4717-9076-248a49fadf66" />
+
+
+Nii auto ID kui ka numbrimärk on unikaalsed ja neid saab valida primaarvõtmeks.
+
+
 ## Alternate Key  
 
 - Alternatiivvõti on kandidaatvõti, mida ei valita primaarvõtmeks, kuid mis suudab siiski tabelis kirje unikaalselt tuvastada.
 - Kui kirjeid saab unikaalselt tuvastada mitu atribuuti, valitakse primaarvõtmeks ainult üks.
 - Ülejäänud unikaalsed atribuudid toimivad alternatiivvõtmetena, pakkudes alternatiivseid viise kirjete tuvastamiseks.
 
-Näide minu: Kui Primary Key on CarID, siis PlateNumber muutub Alternate Key
+Näide minu: Kui Primary Key on CarID, siis PlateNumber muutub Alternate Key.
+
+- <img width="162" height="101" alt="{57FDFD79-2B3B-445D-BB6F-B15C5B11C4DD}" src="https://github.com/user-attachments/assets/4d248368-d641-43d1-9c83-b86453161367" />
+
+Minu andmebaasis on primaarvõti CarID ja plateNumber on alternatiivvõti, kuna see on samuti unikaalne, kuid mitte primaarvõtmeks valitud.
+
 
 ## Minu andmebaasi diagramm
 
