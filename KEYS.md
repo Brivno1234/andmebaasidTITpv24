@@ -17,6 +17,7 @@ YearMade INT );
 ```
 
 Autode tabel:
+
  <img width="562" height="104" alt="{3A05339B-F90D-44F0-82BE-E1238F82D1E2}" src="https://github.com/user-attachments/assets/7a617e78-6d99-4969-aa5d-67dabefc9798" />
 
 
@@ -36,6 +37,7 @@ FOREIGN KEY (CarID) REFERENCES Cars(CarID)
 );
 ```
 Autode ja omanike vaheline seos:
+
  <img width="229" height="102" alt="{7A5F5FF2-701B-44B6-A9B2-B3767C1B68E0}" src="https://github.com/user-attachments/assets/8169c568-7898-4cb5-9abc-50830a96e066" />
 
 
@@ -54,6 +56,7 @@ PlateNumber VARCHAR(20) UNIQUE
 
 ```
 registreerimisnumbrid:Väljal „PlateNumber” on ainulaadne piirang, seega topeltnumbrid pole võimalikud.
+
  <img width="203" height="98" alt="{E5DDB061-9AF1-4D6A-A903-B451966C2C1B}" src="https://github.com/user-attachments/assets/3dc0428e-79f9-4b42-a547-4e7bd980b4ff" />
 
 
