@@ -10,8 +10,8 @@
 - [Alternate Key](#Alternate_Key)
 - [Minu andmebaasi diagramm](#Minu_andmebaasi_diagramm)
 - [kimp kõiki märke](#kimp_kõiki_märke)
-- [Minu kod:](#Minu_kod:)
-- [Allikad:](#Allikad:)
+- [Minu kod](#Minu_kod)
+- [Allikad](#Allikad)
 
 
 ## Primary Key
