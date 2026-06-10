@@ -158,7 +158,8 @@ Diagrammil on kujutatud Žiguli autode andmebaasi struktuur ja tabelite vahelise
 Peamine tabel on Cars, kus hoitakse andmeid autode kohta (mudel, mootor, värv, tootmisaasta jne). Teised tabelid (Owners, Registrations, Repairs, Parts) on seotud tabeliga Cars läbi Foreign Key võtmete.
 Diagramm aitab paremini mõista tabelite struktuuri ja nende omavahelisi seoseid.
 
- <img width="913" height="768" alt="{BEBBD2B1-CC95-421E-A2D9-FFAF0BA2402E}" src="https://github.com/user-attachments/assets/1772c89d-43d6-4608-bcb5-cb5cdade9034" />
+<img width="979" height="611" alt="{597E0F91-089C-4549-A2DA-863F569E42EE}" src="https://github.com/user-attachments/assets/aa4fecbd-a925-4c97-bc74-00a480a0d5e1" />
+
 
 ## kimp kõiki märke 
  <img width="750" height="161" alt="{1223F17D-798A-48D3-935A-11ED577274B3}" src="https://github.com/user-attachments/assets/90503dec-c1c7-4643-9267-5407ed0fafc6" />
