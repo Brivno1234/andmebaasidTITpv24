@@ -164,6 +164,109 @@ Diagramm aitab paremini mõista tabelite struktuuri ja nende omavahelisi seoseid
 ## kimp kõiki märke 
  <img width="750" height="161" alt="{1223F17D-798A-48D3-935A-11ED577274B3}" src="https://github.com/user-attachments/assets/90503dec-c1c7-4643-9267-5407ed0fafc6" />
 
+## Minu kod:
+```sql
+CREATE TABLE Cars (
+    CarID INT PRIMARY KEY,
+    Model VARCHAR(50),
+    EngineModel VARCHAR(50),
+    EngineVolume DECIMAL(2,1),
+    Wheels INT,
+    YearMade INT,
+    Color VARCHAR(30),
+    HorsePower INT
+);
+
+INSERT INTO Cars VALUES
+(1,'VAZ-2101','VAZ-2101',1.2,4,1975,'Valge',64),
+(2,'VAZ-2106','VAZ-2106',1.6,4,1984,'Punane',80),
+(3,'VAZ-2107','VAZ-2107',1.5,4,2002,'Must',72),
+(4,'Niva 4x4','VAZ-21213',1.7,4,2007,'Roheline',83);
+
+
+CREATE TABLE Owners (
+    OwnerID INT PRIMARY KEY,
+    OwnerName VARCHAR(50),
+    City VARCHAR(50),
+    Phone VARCHAR(20),
+    CarID INT,
+    FOREIGN KEY (CarID) REFERENCES Cars(CarID)
+);
+
+INSERT INTO Owners VALUES
+(1,'Marek','Tallinn','5551111',1),
+(2,'Karl','Narva','5552222',2),
+(3,'Andres','Tartu','5553333',3),
+(4,'Roman','Pärnu','5554444',4);
+
+
+CREATE TABLE Registrations (
+    RegistrationID INT PRIMARY KEY,
+    PlateNumber VARCHAR(20) UNIQUE,
+    CarID INT,
+    FOREIGN KEY (CarID) REFERENCES Cars(CarID)
+);
+
+INSERT INTO Registrations VALUES
+(1,'123ABC',1),
+(2,'456DEF',2),
+(3,'789GHI',3),
+(4,'321XYZ',4);
+
+
+CREATE TABLE Repairs (
+    RepairID INT PRIMARY KEY,
+    RepairName VARCHAR(100),
+    Cost DECIMAL(8,2)
+);
+
+INSERT INTO Repairs VALUES
+(1,'Engine Repair',500),
+(2,'Brake Repair',150),
+(3,'Oil Change',50),
+(4,'Painting',350);
+
+
+CREATE TABLE CarRepairs (
+    CarID INT,
+    RepairID INT,
+    RepairDate DATE,
+    PRIMARY KEY (CarID, RepairID),
+    FOREIGN KEY (CarID) REFERENCES Cars(CarID),
+    FOREIGN KEY (RepairID) REFERENCES Repairs(RepairID)
+);
+
+INSERT INTO CarRepairs VALUES
+(1,1,'2024-05-01'),
+(1,3,'2024-08-15'),
+(2,2,'2024-06-20'),
+(3,4,'2024-09-01'),
+(4,3,'2024-10-10');
+
+
+CREATE TABLE Parts (
+    PartID INT PRIMARY KEY,
+    PartName VARCHAR(100),
+    Price DECIMAL(8,2)
+);
+
+INSERT INTO Parts VALUES
+(1,'Engine',1200),
+(2,'Brake Pads',80),
+(3,'Oil Filter',20),
+(4,'Wheel',100),
+(5,'Battery',150);
+
+
+CREATE TABLE CarParts (
+    CarID INT,
+    PartID INT,
+    Quantity INT,
+    PRIMARY KEY (CarID, PartID),
+    FOREIGN KEY (CarID) REFERENCES Cars(CarID),
+    FOREIGN KEY (PartID) REFERENCES Parts(PartID)
+);
+```
 
 
 ## Allikad:
