@@ -1,3 +1,4 @@
+[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [work no 1 30.04.26](work_no_1_30.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
 ## TRIGGER - triger - pööstik 
 - andmedaasi objekt, mis  automatselt  käivitud tabel sündmused ( INSERT , UPDATE, DELETE).
 
