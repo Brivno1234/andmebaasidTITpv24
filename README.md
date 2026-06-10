@@ -1,7 +1,9 @@
 # AndmebaasidTITpv24
+[Põhimõisted](#põhimõisted),[Andmetüübid](#andmetüübid)
+
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
-- [Põhimõisted](#põhimõisted)
+- [Põhimõisted](#põhimõisted),[Andmetüübid](#andmetüübid)
 - [Andmetüübid](#andmetüübid)
 - [SEOSED](#SEOSED)
 - [Piirangud](#Piirangud)
