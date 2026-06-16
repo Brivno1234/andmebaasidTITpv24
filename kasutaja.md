@@ -1,4 +1,6 @@
-[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [work no 1 30.04.26](work_no_1_30.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
+[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [work_no_130.04.26](work_no_130.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
+
+
 ## õpetaja kasutaja.md konspekt
 ## Permissions of Fixed Database Roles (Database Engine)
 <img width="612" height="770" alt="pilt" src="https://github.com/user-attachments/assets/fbe4c2d7-4e67-4e53-9e6b-60dbacec0758" />
