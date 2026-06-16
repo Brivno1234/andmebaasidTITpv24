@@ -1,8 +1,8 @@
-[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [work_no_130.04.26](work_no_130.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
+[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [workto130.04.26](workto130.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
 
 CREATE DATABASE TITPV24baas
 USE TITPV24baas 
-
+```sql
  CREATE TABLE opilane(
  opilaneID int primary Key identity(1,1), -- automatselt täidab numbridiga
  eesnimi varchar(25),
@@ -22,19 +22,23 @@ USE TITPV24baas
  ('Suvorov','Marko', 5.0); 
  
  SELECT * FROM opilane;
-
+```
  --uue veeru lisamine 
- ALTER TABLE opilane ADD isikekood varchar(11);
- SELECT * FROM opilane;
+ALTER TABLE opilane ADD isikekood varchar(11);
+SELECT * FROM opilane;
+
  --veeru kustutamine удалить 
   ALTER TABLE opilane drop column isikekood ;
   SELECT * FROM opilane;
+  
  -- andmetüübi muutmine varchar(11) -->char(11)
+ ```sql```
  ALTER TABLE opilane ADD isikekood char(11);
  SELECT * FROM opilane;
+ 
  --sissehitatud protseduur , mis näitab tabele struktur
+ 
 -- sp_help opilane;
- --
 
 -- piirangute lisamine 
 
