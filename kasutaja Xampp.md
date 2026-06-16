@@ -1,5 +1,5 @@
-[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [workto130.04.26](workto130.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md)
-
+[KEYS](KEYS.md) | [kasutaja](kasutaja.md) | [kysimused](kysimused.md)  | [protoseduur](protoseduur.md) | [xamppPROCEDUR](xamppPROCEDUR.md) | [triger](triger.md) | [workto130.04.26](workto130.04.26.md) | [DATABASEstart](DATABASEstart.md) |[kasutaja Xampp.](kasutaja_Xampp.md) | [CREATE_insert16.04](CREATE_insert16.04.md)
+ 
 ## Kasutaja XAMPP
 <img width="685" height="761" alt="{688D698A-F3E4-43BF-91A9-03F35129C65A}" src="https://github.com/user-attachments/assets/6b19c1d2-abc2-4681-8584-575222745087" />
 
